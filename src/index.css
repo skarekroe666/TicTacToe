@@ -1,0 +1,56 @@
+body {
+    font-family: monospace;
+}
+
+.ttt-container {
+    clear: both;
+    content: "";
+    display: table;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square {
+    border: 1px solid red;
+    float: left;
+    font-size: 40px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+/* From Uiverse.io by barisdogansutcu */
+.restart {
+    padding: 17px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: #94ff93;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+.restart:hover {
+    letter-spacing: 3px;
+    background-color: #5d18dc;
+    color: #ffffff;
+    box-shadow: #5d18dc 0px 7px 29px 0px;
+}
+
+.restart:active {
+    letter-spacing: 3px;
+    background-color: #5d18dc;
+    color: #ffffff;
+    box-shadow: #5d18dc 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
